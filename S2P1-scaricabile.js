@@ -6,14 +6,16 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-// let n1 = 10;
-// let n2 = 18;
+//  let n1 = 18;
+//  let n2 = 18;
 
-// if (n1 > n2) {
-//   console.log("Il numero maggiore è:", n1);
-// } else {
-//   console.log("Il numero maggiore è:", n2);
-// }
+//  if (n1 > n2) {
+//    console.log("Il numero maggiore è:", n1);
+//  } else if (n1 < n2) {
+//    console.log("Il numero maggiore è:", n2);
+//  } else if (n1 == n2) {
+//    console.log("I numeri sono uguali");
+//  }
 
 /*
 ESERCIZIO 2
@@ -50,11 +52,11 @@ ESERCIZIO 2
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-// for (let i = 0; i <= 10; i++) {
-//   if (i == 3 || i ==  8) {
-//     continue;
-//   } else console.log(i);
-// }
+//  for (let i = 0; i <= 10; i++) {
+//    if (i == 3 || i ==  8) {
+//      continue;
+//    } else console.log(i);
+//  }
 
 /* ESERCIZIO 11
   Scrivi un ciclo in JavaScript per iterare da 0 a 15. Per ciascun elemento, il ciclo deve controllare the il valore corrente sia pari o dispari, e mostrare il risultato in console.
@@ -76,12 +78,28 @@ ESERCIZIO 2
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-// let n1 = 3;
-// let n2 = 5;
+  // let n1 = 0;
+  // let n2 = 8;
 
-// if (n1 == 8 || n2 == 8 || n1 + n2 == 8 || n1 - n2 == 8) {
-//   console.log("Uno dei casi è vero");
-// } else console.log("Nessuno dei casi è vero");
+  // if (n1 == 8 || n2 == 8 || n1 + n2 == 8 || n1 - n2 == 8) {
+  //  if (n1 == 8) {
+  //    console.log("Il primo numero è uguale a 8");
+  //    if (n2 == 0) {
+  //     console.log("La somma dei due numeri è 8");
+  //     console.log("La differenza dei due numeri è 8");
+  //    }
+  //  } else if (n2 == 8) {
+  //    console.log("Il secondo numero è uguale a 8");
+  //    if (n1 == 0) {
+  //     console.log("La somma dei due numeri è 8");
+  //     console.log("La differenza dei due numeri è 8");
+  //    }
+  //  } else if (n1 + n2 == 8) {
+  //    console.log("La somma dei due numeri è 8");
+  //  } else {
+  //    console.log("La differenza dei due numeri è 8");
+  //  }
+  // } else console.log("Nessuno dei casi è vero");
 
 /* ESERCIZIO EXTRA 2
 Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -98,7 +116,7 @@ Crea un algoritmo che determini l'ammontare totale che deve essere addebitato al
 //    console.log("Hai diritto alla spedizione gratuita");
 //  } else {
 //    totalShoppingCart = totalShoppingCart + 10;
-//    console.log("Il costo totale è " + totalShoppingCart)
+//    console.log("Il costo totale è " + totalShoppingCart);
 //  }
 
 /* ESERCIZIO EXTRA 3
@@ -108,20 +126,20 @@ Crea un algoritmo che determini l'ammontare totale che deve essere addebitato al
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-// let totalShoppingCart = 10;
-// let blackFridaySales = totalShoppingCart * 0.2;
+//  let totalShoppingCart = 10;
+//  let blackFridaySales = totalShoppingCart * 0.2;
 
-// totalShoppingCart = totalShoppingCart - blackFridaySales;
+//  totalShoppingCart = totalShoppingCart - blackFridaySales;
 
-// if (totalShoppingCart > 50) {
-//   console.log("Il costo totale è " + totalShoppingCart + " euro");
-//   console.log("Lo sconto è di " + blackFridaySales + " euro")
-//   console.log("Hai diritto alla spedizione gratuita");
-// } else {
-//   totalShoppingCart = totalShoppingCart + 10;
-//   console.log("Il costo totale è " + totalShoppingCart + " euro");
-//   console.log("Lo sconto è di " + blackFridaySales + " euro")
-// }
+//  if (totalShoppingCart > 50) {
+//    console.log("Il costo totale è " + totalShoppingCart + " euro");
+//    console.log("Lo sconto è di " + blackFridaySales + " euro")
+//    console.log("Hai diritto alla spedizione gratuita");
+//  } else {
+//    totalShoppingCart = totalShoppingCart + 10;
+//    console.log("Il costo totale è " + totalShoppingCart + " euro");
+//    console.log("Lo sconto è di " + blackFridaySales + " euro")
+//  }
 
 /*  ESERCIZIO EXTRA 4
   Usa un operatore ternaio per assegnare ad una variabile chiamata "gender" i valori "male" o "female".
@@ -142,12 +160,12 @@ Crea un algoritmo che determini l'ammontare totale che deve essere addebitato al
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-// for (let i = 0; i <= 100; i++) {   
-//   if (i % 3 == 0 && i % 5 == 0) {
-//     console.log("FizzBuzz");
-//   } else if (i % 5 == 0) {
-//     console.log ("Buzz");
-//   } else if (i % 3 == 0) {
-//     console.log("Fizz");
-//   } else console.log(i);
-// }
+//  for (let i = 1; i <= 100; i++) {   
+//    if (i % 3 == 0 && i % 5 == 0) {
+//      console.log("FizzBuzz");
+//    } else if (i % 5 == 0) {
+//      console.log ("Buzz");
+//    } else if (i % 3 == 0) {
+//      console.log("Fizz");
+//    } else console.log(i);
+//  }
